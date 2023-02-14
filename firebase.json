@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/dyn-kaichi",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+<div class="" *ngIf="authService.user$ | async as user">
+    <div>
+      <div class="media">
+        <div style="color: black">
+          <h1>
+            Hello: {{ user.displayName }}
+          </h1>
+          <ul>
+            <li>Email: <strong>{{ user.email }}</strong></li>
+            <li>Favourite team: <strong>{{ user.favouriteTeam }}</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
